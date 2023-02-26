@@ -1,0 +1,158 @@
+.footer {
+  padding: 45px 0;
+  background-color: #2F324B;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 49px 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer {
+    padding: 25px 0 0;
+  }
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 25px;
+}
+
+.footer__group {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+
+}
+
+.footer__logo {
+  width: 68px;
+  height: 68px;
+}
+
+@media (max-width: 1024px) {
+  .footer__logo {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer__logo {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.footer__copiright {
+  max-width: 127px;
+}
+
+@media (max-width: 640px) {
+  .footer__copiright {
+    max-width: 88px;
+  }
+}
+
+.copiright__text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 640px) {
+  .copiright__text {
+    font-size: 8px;
+    line-height: 11px;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer__development {
+    width: 100%;
+    order: 5;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #2A2C3F;
+  }
+}
+
+
+.development__text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.contacts {
+  font-family: 'Roboto';
+  font-weight: 400;
+  text-align: center;
+  color: var(--main-color, #ffffff);
+  min-height: 24px;
+}
+
+.contacts__link-tel {
+  position: relative;
+  display: block;
+  font-size: 23.85px;
+  line-height: 1.174;
+
+}
+
+.contacts__link-tel::before {
+  content: '';
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 24px;
+  height: 24px;
+  background-image: url('../img/Phone.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+}
+
+@media (max-width: 1024px) {
+  .contacts__link-tel {
+    font-size: 21px;
+    line-height: 1.19;
+  }
+}
+
+@media (max-width: 640px) {
+  .contacts__hidden {
+    display: none;
+  }
+  
+  .contacts__link-tel::before {
+    display: block;
+  }
+}
+
+.contacts__link {
+  font-size: 16px;
+  line-height: 1.188;
+  border-bottom: 1px solid var(--main-color);
+}
+
+@media (max-width: 1024px) {
+  .contacts__link {
+    font-size: 13px;
+    line-height: 1.154;
+  }
+}
+
+@media (max-width: 640px) {
+  .contacts__link {
+    display: none;
+  }
+}

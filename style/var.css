@@ -1,0 +1,24 @@
+:root {
+  --main-color: #ffffff;
+  --second-color: #383A4C;
+  --blue-color: #15A9CB;
+  --blue-ligth-color: #23C7EC;
+}
+
+.container {
+  --max-width: 1200px;
+  --padding: 30px;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    --max-width: 964px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    --max-width: 290px;
+    --padding: 15px;
+  }
+}
