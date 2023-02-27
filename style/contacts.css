@@ -1,0 +1,71 @@
+
+.contacts {
+  font-family: 'Roboto';
+  font-weight: 400;
+  text-align: center;
+  color: var(--main-color, #ffffff);
+  min-height: 24px;
+}
+
+.contacts__link-tel {
+  position: relative;
+  display: block;
+  font-size: 23.85px;
+  line-height: 1.174;
+  transition: color 0.5s ease-in-out;
+}
+
+.contacts__link-tel::before {
+  content: '';
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 24px;
+  height: 24px;
+  background-image: url('../img/Phone.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+}
+
+.contacts__link-tel:hover {
+  color: var(--blue-color);
+}
+
+.contacts__link {
+  font-size: 16px;
+  line-height: 1.188;
+  border-bottom: 1px solid var(--main-color);
+  transition: color 0.5s ease-in-out;
+}
+
+.contacts__link:hover {
+  color: var(--blue-color);
+}
+
+@media (max-width: 1024px) {
+  .contacts__link-tel {
+    font-size: 21px;
+    line-height: 1.19;
+  }
+
+  .contacts__link {
+    font-size: 13px;
+    line-height: 1.154;
+  }
+}
+
+@media (max-width: 640px) {
+  .contacts__hidden {
+    display: none;
+  }
+
+  .contacts__link-tel::before {
+    display: block;
+  }
+
+  .contacts__link {
+    display: none;
+  }
+}

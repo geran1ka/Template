@@ -2,7 +2,6 @@
   padding: 70px 0;
 }
 
-
 .about-us__title {
   margin-bottom: 25px;
   font-family: 'Roboto';
@@ -11,22 +10,6 @@
   line-height: 1.171;
   text-align: center;
   color: var(--second-color, #383A4C);
-}
-
-@media (max-width: 1024px) {
-  .about-us__title{
-    margin-bottom: 23px;
-    font-size: 32px;
-    line-height: 1.188;
-  }
-}
-
-@media (max-width: 640px) {
-  .about-us__title{
-    margin-bottom: 15px;
-    font-size: 20px;
-    line-height: 1.15;
-  }
 }
 
 .about-us__subtitle {
@@ -39,24 +22,6 @@
   line-height: 1.182;
   text-align: center;
   color: var(--second-color, #383A4C);
-}
-
-@media (max-width: 1024px) {
-  .about-us__subtitle {
-    max-width: 174px;
-    margin-bottom: 33px;
-    font-size: 20px;
-    line-height: 1.15;
-  }
-}
-
-@media (max-width: 640px) {
-  .about-us__subtitle {
-    max-width: 134px;
-    margin-bottom: 26px;
-    font-size: 16px;
-    line-height: 1.188;
-  }
 }
 
 .about-us__subtitle::before,
@@ -78,66 +43,25 @@
   right: 0;
 }
 
-@media (max-width: 1024px) {
-  .about-us__subtitle::before,
-  .about-us__subtitle::after  {
-    width: 40px;
-  }
-}
-
-@media (max-width: 640px) {
-  .about-us__subtitle::before,
-  .about-us__subtitle::after  {
-    width: 20px;
-    height: 1px;
-  }
-}
-
 .about-us__text {
   max-width: 724px;
   margin: 0 auto 50px;
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 26px;
   text-align: center;
   color: var(--second-color, #383A4C);
 }
 
-@media (max-width: 1024px) {
-  .about-us__text {
-    max-width: 666px;
-    font-size: 16px;
-    line-height: 1.438;
-  }
-}
-
-@media (max-width: 640px) {
-  .about-us__text {
-    max-width: 290px;
-    margin-bottom: 40px;
-    font-size: 12px;
-    line-height: 1.417;
-  }
-}
-
 .about-us__list {
   display: flex;
+  justify-content: space-between;
   margin: 0 auto;
-
   align-items: end;
   gap: 50px;
   max-width: 935px;
   counter-reset: count 0;
-}
-
-
-@media (max-width: 640px) {
-  .about-us__list {
-    max-width: 190px;
-    flex-direction: column;
-    gap: 40px;
-  }
 }
 
 .about-us__item {
@@ -176,6 +100,35 @@
 }
 
 @media (max-width: 1024px) {
+  .about-us__title{
+    margin-bottom: 23px;
+    font-size: 32px;
+    line-height: 1.188;
+  }
+
+  .about-us__subtitle {
+    max-width: 174px;
+    margin-bottom: 33px;
+    font-size: 20px;
+    line-height: 1.15;
+  }
+
+  .about-us__subtitle::before,
+  .about-us__subtitle::after  {
+    width: 40px;
+  }
+
+  .about-us__text {
+    max-width: 666px;
+    font-size: 16px;
+    line-height: 1.438;
+  }
+
+  .about-us__list {
+    max-width: 870px;
+    gap: 20px;
+  }
+
   .about-us__item {
     flex-basis: 180px;
     height: 182px;
@@ -196,7 +149,47 @@
 }
 
 @media (max-width: 640px) {
+  .about-us {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+
+  .about-us__title{
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .about-us__subtitle {
+    max-width: 134px;
+    margin-bottom: 26px;
+    font-size: 16px;
+    line-height: 1.188;
+  }
+
+  .about-us__subtitle::before,
+  .about-us__subtitle::after  {
+    width: 20px;
+    height: 1px;
+  }
+
+  .about-us__text {
+    max-width: 290px;
+    margin-bottom: 40px;
+    font-size: 12px;
+    line-height: 1.406;
+  }
+
+  .about-us__list {
+    max-width: 190px;
+    padding: 0 12px;
+    flex-direction: column;
+    gap: 40px;
+    
+  }
+
   .about-us__item {
-    flex-basis: 166px;
+    flex-basis: 182px;
   }
 }
+
