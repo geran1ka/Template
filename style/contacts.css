@@ -47,9 +47,17 @@
 }
 
 @media (max-width: 1024px) {
+  .contacts {
+    flex-basis: 186px;
+    padding-top: 5px;
+
+  }
+
   .contacts__link-tel {
+    margin-bottom: 3px;
     font-size: 21px;
     line-height: 1.19;
+   
   }
 
   .contacts__link {

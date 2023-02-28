@@ -104,13 +104,15 @@
   }
 
   .content__text {
-    margin-bottom: 60px;
+    max-width: 754px;
+    margin: 0 auto 57px;
     font-size: 18px;
     line-height: 1.389;
   }
 
   .content__link {
-    padding: 11px 49px;
+    max-width: 202px;
+    padding: 12px 48px 13px 48px;
   }
 }
 

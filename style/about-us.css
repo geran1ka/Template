@@ -104,6 +104,11 @@
 }
 
 @media (max-width: 1024px) {
+  .about-us {
+    padding-top: 71px;
+    padding-bottom: 73px;
+  }
+
   .about-us__title{
     margin-bottom: 23px;
     font-size: 32px;
@@ -111,8 +116,10 @@
 
   .about-us__subtitle {
     max-width: 174px;
-    margin-bottom: 33px;
+    margin-bottom: 32px;
+    padding-right: 4px;
     font-size: 20px;
+    line-height: 1.15;
   }
 
   .about-us__subtitle::before,
@@ -122,17 +129,19 @@
 
   .about-us__text {
     max-width: 666px;
+    margin-bottom: 60px;
     font-size: 16px;
   }
 
   .about-us__list {
     max-width: 870px;
+    margin-right: 48px;
     gap: 20px;
   }
 
   .about-us__item {
     flex-basis: 180px;
-    gap: 26px;
+    gap: 24px;
   }
 
   .about-us__item::before {
@@ -144,6 +153,7 @@
 
   .about-us__item-text {
     font-size: 18px;
+    line-height: 1.389;
   }
 }
 
