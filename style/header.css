@@ -119,24 +119,32 @@
 @media (max-width: 640px) {
   .header {
     padding-top: 15px;
-    padding-bottom: 65px;
+    padding-bottom: 66px;
     background-image: url('../img/header-bacground-small.jpg');
   }
 
+  .header__container{
+    gap: 67px;
+  }
+
+  .contaccts {
+    padding-top: 3px;
+  }
+
   .content__title {
-    margin-bottom: 23px;
+    margin-bottom: 25px;
     font-size: 20px;
     line-height: 1.15;
   }
 
   .content__text {
-    margin-bottom: 54px;
+    margin-bottom: 53px;
     font-size: 14px;
     line-height: 1.429;
   }
 
   .content__link {
-    padding: 9px 29px;
+    padding: 8px 37px 9px;
     font-size: 16px;
     line-height: 1.188;
   }

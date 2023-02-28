@@ -65,6 +65,10 @@
     font-size: 12px;
   }
 
+  .footer__hidden {
+    display: none;
+  }
+
   .footer__link-tel {
     margin-bottom: 3px;
   }
@@ -88,6 +92,7 @@
 
   .footer__copiright {
     max-width: 90px;
+    padding-top: 0;
   }
 
   .copiright__text {
@@ -95,13 +100,18 @@
     line-height: 11px;
   }
 
+  .footer__contacts {
+    flex-basis: 34px;
+  }
+  
+
   .footer__development {
     position: relative;
     z-index: 1;
     width: 100%;
     order: 5;
+    margin: 0 auto;
     padding: 15px 0;
     text-align: center;
-
   }
 }
