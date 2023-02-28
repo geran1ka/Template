@@ -1,5 +1,6 @@
 .about-us {
   padding: 70px 0;
+  background-color: #f9f9f9;
 }
 
 .about-us__title {
@@ -54,11 +55,17 @@
   color: var(--second-color, #383A4C);
 }
 
+.radio {
+  position: absolute;
+  visibility: hidden;
+}
+
+
 .about-us__list {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  align-items: end;
+  align-items: self-start;
   gap: 50px;
   max-width: 935px;
   counter-reset: count 0;
@@ -168,16 +175,89 @@
     font-size: 12px;
   }
 
+  .slider {
+    position: relative;
+    max-width: 290px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 10px;
+    height: 10px;
+    justify-content: center;
+  }
+  
+
   .about-us__list {
-    max-width: 190px;
-    padding: 0 12px;
-    flex-direction: column;
-    gap: 40px;
-    
+    flex-direction: row;
+    padding-left: 62px;
+    width: 400%;
+    gap: 124px;
+  }
+  
+  .about-us__item {
+    flex-shrink: 0;
+    flex-basis: 166px;
+  } 
+
+  #switch1:checked ~ #controls label:nth-child(4), 
+  #switch2:checked ~ #controls label:nth-child(1),
+  #switch3:checked ~ #controls label:nth-child(2),
+  #switch4:checked ~ #controls label:nth-child(3){
+    background-image: url('../img/left-black.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    height: 38px;
+    width: 38px;
+    background-position: 60% 42%;
+    background-size: 190%;
   }
 
-  .about-us__item {
-    flex-basis: 182px;
+  #switch1:checked ~ #controls label:nth-child(2), 
+  #switch2:checked ~ #controls label:nth-child(3),
+  #switch3:checked ~ #controls label:nth-child(4),
+  #switch4:checked ~ #controls label:nth-child(1){
+    background-image: url('../img/right-black.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    height: 38px;
+    width: 38px;
+    background-position: 60% 42%;
+    background-size: 190%;
+  }
+
+  #switch4:checked ~ #controls label:nth-child(1) {
+    pointer-events: none;
+    background-image: url('../img/right.svg');
+    background-position: 33% 42%;
+  }
+
+  #switch1:checked ~ #controls label:nth-child(4) {
+    pointer-events: none;
+    background-image: url('../img/left.svg');
+    background-position: 33% 42%;
+  }
+  
+  #switch1:checked ~ .about-us__list{
+    margin-left: 0;
+  }
+  
+  #switch2:checked ~ .about-us__list {
+    margin-left: -100%;
+  }
+  #switch3:checked ~ .about-us__list {
+    margin-left: -200%;
+  }
+  #switch4:checked ~ .about-us__list {
+    margin-left: -300%;
   }
 }
 
