@@ -10,8 +10,9 @@
 .contacts__link-tel {
   position: relative;
   display: block;
+  margin-bottom: 4px;
   font-size: 23.85px;
-  line-height: 1.174;
+  line-height: 1.172;
   transition: color 0.5s ease-in-out;
 }
 
@@ -35,7 +36,7 @@
 
 .contacts__link {
   font-size: 16px;
-  line-height: 1.188;
+  line-height: 1.172;
   border-bottom: 1px solid var(--main-color);
   transition: color 0.5s ease-in-out;
 }
