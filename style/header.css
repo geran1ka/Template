@@ -35,7 +35,7 @@
 }
 
 .content__title {
-  margin-bottom: 35px;
+  margin-bottom: 33px;
   font-family: 'Roboto';
   font-weight: 900;
   font-size: 52px;
@@ -45,17 +45,17 @@
 }
 
 .content__text {
-  margin-bottom: 90px;
+  margin-bottom: 88px;
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 22px;
-  line-height: 1.41;
+  line-height: 1.409;
   color: rgba(255, 255, 255, 0.75);
 }
 
 .content__link {
   display: inline-block;
-  padding: 12px 48px;
+  padding: 13px 49px 12px 48px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -64,7 +64,6 @@
   color: var(--main-color, #ffffff);
   background-color: var(--blue-color, #15a9cb);
   border-radius: 50px;
-  border: 2px solid transparent;
   outline: none;
   transition: 0.5s ease-in-out;
   transition-property: color, background, border;

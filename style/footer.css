@@ -28,11 +28,24 @@
   color: #FFFFFF;
 }
 
+.footer__development{
+  flex-basis: 177px;
+}
+
 .development__text {
   font-weight: 500;
   font-size: 12px;
   line-height: 17px;
   color: #FFFFFF;
+}
+
+.footer__contacts {
+  margin-bottom: 0px;
+  padding-top: 0px;
+}
+
+.footer__link-tel {
+  margin-bottom: 5px;
 }
 
 

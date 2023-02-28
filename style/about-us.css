@@ -1,5 +1,5 @@
 .about-us {
-  padding: 70px 0;
+  padding: 70px 0 71px;
   background-color: #f9f9f9;
 }
 
@@ -46,7 +46,7 @@
 
 .about-us__text {
   max-width: 724px;
-  margin: 0 auto 50px;
+  margin: 0 auto 58px;
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 18px;
@@ -65,6 +65,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  padding-left: 1px;
   align-items: self-start;
   gap: 50px;
   max-width: 935px;
@@ -82,7 +83,7 @@
 
 .about-us__item::before {
   content: counter(count);
-  padding: 32px 45px;
+  padding: 37px 43px 35px 42px;
   width: 122px;
   height: 122px;
   font-weight: 500;
