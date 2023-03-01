@@ -36,7 +36,7 @@
 }
 
 .contacts__link {
-  padding-bottom: 2px;
+  padding-bottom: 3px;
   font-size: 16px;
   line-height: 1.172;
   border-bottom: 1px solid var(--main-color);
