@@ -54,6 +54,10 @@
   padding-right: 1px;
 }
 
+.footer__link {
+  padding-bottom: 1px;
+}
+
 
 @media (max-width: 1024px) {
   .footer {
