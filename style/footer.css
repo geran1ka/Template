@@ -1,5 +1,6 @@
 .footer {
   padding: 45px 0;
+  padding-bottom: 48px;
   background-color: #2F324B;
 }
 
@@ -31,6 +32,7 @@
 .footer__development{
   flex-basis: 177px;
   padding-left: 1px;
+  margin-right: 4px;
 }
 
 .development__text {
@@ -43,6 +45,7 @@
 .footer__contacts {
   margin-bottom: 0px;
   padding-top: 0px;
+  padding-bottom: 4px;
 }
 
 .footer__link-tel {

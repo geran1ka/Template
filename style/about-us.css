@@ -142,6 +142,7 @@
   .about-us__item {
     flex-basis: 180px;
     gap: 24px;
+    padding-right: 2px;
   }
 
   .about-us__item::before {
@@ -149,6 +150,10 @@
     width: 104px;
     height: 104px;
     font-size: 52px;
+  }
+
+  .about-us__item:first-child {
+    padding-right: 3px;
   }
 
   .about-us__item-text {

@@ -138,7 +138,7 @@
 
 @media (max-width: 1024px) {
   .faq {
-    padding-bottom: 57px;
+    padding-bottom: 58px;
     background-image: url('../img/faq-background-medium.jpg');
   }
 
@@ -156,18 +156,22 @@
 
   .form {
     max-width: 377px;
-    margin-bottom: 29px;
+    margin-bottom: 31px;
   }
 
   .form__group {
     margin-bottom: 47px;
-    gap: 16px;
+    gap: 15px;
   }
 
   .form__input {
     padding: 9px 20px 8px 20px;
     font-size: 20px;
     line-height: 1.15;
+  }
+
+  .form__input:last-child {
+    padding-left: 17px;
   }
 
   .faq__text-alternative {
