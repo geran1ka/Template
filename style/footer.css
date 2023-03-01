@@ -61,7 +61,7 @@
 
 @media (max-width: 1024px) {
   .footer {
-    padding: 37px 0;
+    padding: 37px 0 47px;
   }
 
   .footer__copiright {
@@ -81,7 +81,7 @@
   }
 
   .footer__link-tel {
-    margin-bottom: 3px;
+    margin-bottom: 2px;
   }
 
   .footer__contacts {
