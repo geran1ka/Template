@@ -30,6 +30,7 @@
 
 .footer__development{
   flex-basis: 177px;
+  padding-left: 1px;
 }
 
 .development__text {
@@ -45,7 +46,9 @@
 }
 
 .footer__link-tel {
-  margin-bottom: 5px;
+  margin-bottom: 4px;
+  padding-left: 2px;
+  padding-right: 1px;
 }
 
 

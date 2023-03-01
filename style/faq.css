@@ -51,7 +51,7 @@
 
 .form__group {
   padding: 0;
-  margin-bottom: 48px;
+  margin-bottom: 47px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,7 +60,7 @@
 }
 
 .form__input {
-  padding: 7px 23px 11px;
+  padding: 8px 22px 10px;
   font-weight: 400;
   font-size: 22px;
   line-height: 1.172;
@@ -68,6 +68,10 @@
   border-radius: 50px;
   background-color: transparent;
   cursor: pointer
+}
+
+.form__input:last-child {
+  padding-top: 9px;
 }
 
 .form__input:hover {
