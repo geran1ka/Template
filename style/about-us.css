@@ -223,10 +223,10 @@
     gap: 25px;
   } 
 
-  #switch1:checked ~ #controls label:nth-child(4), 
-  #switch2:checked ~ #controls label:nth-child(1),
-  #switch3:checked ~ #controls label:nth-child(2),
-  #switch4:checked ~ #controls label:nth-child(3){
+  .switch1:checked ~ .controls .control-four, 
+  .switch2:checked ~ .controls .control-one,
+  .switch3:checked ~ .controls .control-two,
+  .switch4:checked ~ .controls .control-three {
     background-image: url('../img/left-black.svg');
     background-repeat: no-repeat;
     position: absolute;
@@ -239,10 +239,10 @@
     background-size: 190%;
   }
 
-  #switch1:checked ~ #controls label:nth-child(2), 
-  #switch2:checked ~ #controls label:nth-child(3),
-  #switch3:checked ~ #controls label:nth-child(4),
-  #switch4:checked ~ #controls label:nth-child(1){
+  .switch1:checked ~ .controls .control-two,
+  .switch2:checked ~ .controls .control-three,
+  .switch3:checked ~ .controls .control-four,
+  .switch4:checked ~ .controls .control-one {
     background-image: url('../img/right-black.svg');
     background-repeat: no-repeat;
     position: absolute;
@@ -255,29 +255,29 @@
     background-size: 190%;
   }
 
-  #switch4:checked ~ #controls label:nth-child(1) {
+  .switch4:checked ~ .controls .control-one {
     pointer-events: none;
     background-image: url('../img/right.svg');
     background-position: 32% 41%;
   }
 
-  #switch1:checked ~ #controls label:nth-child(4) {
+  .switch1:checked ~ .controls .control-four {
     pointer-events: none;
     background-image: url('../img/left.svg');
     background-position: 32% 41%;
   }
   
-  #switch1:checked ~ .about-us__list{
+  .switch1:checked ~ .about-us__list{
     margin-left: 0;
   }
   
-  #switch2:checked ~ .about-us__list {
+  .switch2:checked ~ .about-us__list {
     margin-left: -100%;
   }
-  #switch3:checked ~ .about-us__list {
+  .switch3:checked ~ .about-us__list {
     margin-left: -200%;
   }
-  #switch4:checked ~ .about-us__list {
+  .switch4:checked ~ .about-us__list {
     margin-left: -300%;
   }
 }
