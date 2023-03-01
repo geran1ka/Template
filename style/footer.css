@@ -105,12 +105,17 @@
     background-color: #2A2C3F;
   }
 
+  ..footer__group {
+    padding-left: 1px;
+  }
+
   .footer__copiright {
     max-width: 90px;
     padding-top: 0;
   }
 
   .copiright__text {
+    padding-bottom: 1px;
     font-size: 8px;
     line-height: 11px;
   }
@@ -119,14 +124,13 @@
     flex-basis: 34px;
   }
   
-
   .footer__development {
     position: relative;
     z-index: 1;
     width: 100%;
     order: 5;
     margin: 0 auto;
-    padding: 15px 0;
+    padding: 14px 0 16px;
     text-align: center;
   }
 }

@@ -165,7 +165,7 @@
 @media (max-width: 640px) {
   .about-us {
     padding-top: 31px;
-    padding-bottom: 54px;
+    padding-bottom: 28px;
   }
 
   .about-us__title{
@@ -185,11 +185,12 @@
   .about-us__subtitle::after  {
     width: 20px;
     height: 1px;
+    margin-top: 1px;
   }
 
   .about-us__text {
     max-width: 290px;
-    margin-bottom: 40px;
+    margin-bottom: 41px;
     padding-right: 3px;
     font-size: 12px;
   }
@@ -211,7 +212,7 @@
 
   .about-us__list {
     flex-direction: row;
-    padding-left: 62px;
+    padding-left: 63px;
     width: 400%;
     gap: 124px;
   }
@@ -229,12 +230,12 @@
     background-image: url('../img/left-black.svg');
     background-repeat: no-repeat;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 43%;
+    transform: translateY(-53%);
     left: 0;
     height: 38px;
     width: 38px;
-    background-position: 59% 45%;
+    background-position: 60% 42%;
     background-size: 190%;
   }
 
@@ -245,25 +246,25 @@
     background-image: url('../img/right-black.svg');
     background-repeat: no-repeat;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 43%;
+    transform: translateY(-53%);
     right: 0;
     height: 38px;
     width: 38px;
-    background-position: 59% 45%;
+    background-position: 60% 42%;
     background-size: 190%;
   }
 
   #switch4:checked ~ #controls label:nth-child(1) {
     pointer-events: none;
     background-image: url('../img/right.svg');
-    background-position: 33% 45%;
+    background-position: 32% 41%;
   }
 
   #switch1:checked ~ #controls label:nth-child(4) {
     pointer-events: none;
     background-image: url('../img/left.svg');
-    background-position: 33% 45%;
+    background-position: 32% 41%;
   }
   
   #switch1:checked ~ .about-us__list{
